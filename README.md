@@ -1,4 +1,4 @@
-# Mysql Playground image
+# Mysql Playground Image
 > Tool keywords: Mysql, Docker
 ## Overview
 The image is for practice of some advanced query with mysql.
@@ -15,7 +15,7 @@ docker-compose up -d # You can create your volume by editing docker-compose.yml
 docker exec -it mysql-8-playground 
 ```
 ## Update database
-When this repo has some new created table and data, you can use following command: 
+When this repo has something new, you can use following command to update your database (the tables might be truncated): 
 
 ```sh
 docker exec -i mysql-8-playground sh -c 'exec mysql playground' < ./initdb.d/1_schema.sql
