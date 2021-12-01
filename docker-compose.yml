@@ -1,0 +1,18 @@
+version: "3.9"
+services:
+  db:
+    image: mysql:8.0
+    container_name: mysql-8-playground
+    restart: always
+    tty: true
+    environment:
+      MYSQL_DATABASE: playground
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+      # MYSQL_ROOT_PASSWORD: root 
+      # MYSQL_USER: ${USER}
+      # MYSQL_PASSWORD: password
+    ports: 
+      - "30000:3306"
+    volumes:
+      - ./initdb.d:/docker-entrypoint-initdb.d
+      # - ./mysql-data:/var/lib/mysql
