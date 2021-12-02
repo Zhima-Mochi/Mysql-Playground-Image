@@ -44,10 +44,9 @@ Created at 2021-12-01
 
 ## Tasks
 ### Find begin and end
-#### Task
 The seq_num in table find_begin_end are not continuous. Write an SQL query to find the
 begin and end of continuous ranges of seq_num in table find_begin_end.
-Example: 
+#### Example: 
 | seq_num |
 | :-----: |
 |    1    |
@@ -61,7 +60,7 @@ Example:
 |   16    |
 |   18    |
 
-Example output:  
+#### Example output:  
 | begin_seq | end_seq |
 | --------- | ------- |
 | 1         | 10      |
