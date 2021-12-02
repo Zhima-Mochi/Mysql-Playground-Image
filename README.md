@@ -22,7 +22,7 @@ docker exec -i mysql-8-playground sh -c 'exec mysql playground' < ./initdb.d/1_s
 docker exec -i mysql-8-playground sh -c 'exec mysql playground' < ./initdb.d/2_data.sql
 ```
 ## Tables in playground
-### find_begin_end 
+### numbers 
 Created at 2021-12-01
 #### Description
 | Field   | Type | Null | Key | Default | Extra |
@@ -44,8 +44,8 @@ Created at 2021-12-01
 
 ## Tasks
 ### Find begin and end
-The seq_num in table find_begin_end are not continuous. Write an SQL query to find the
-begin and end of continuous ranges of seq_num in table find_begin_end.
+The seq_num in table numbers are not continuous. Write an SQL query to find the
+begin and end of continuous ranges of seq_num in table numbers.
 #### Example: 
 | seq_num |
 | :-----: |

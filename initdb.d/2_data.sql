@@ -1,10 +1,10 @@
 USE playground;
 
 -- 2021-12-01
-TRUNCATE TABLE find_begin_end;
+TRUNCATE TABLE numbers;
 
 INSERT INTO
-    find_begin_end(seq_num) WITH recursive t1 AS(
+    numbers(seq_num) WITH recursive t1 AS(
         SELECT
             1 seq_num
         UNION
