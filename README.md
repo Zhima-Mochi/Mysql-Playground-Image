@@ -61,9 +61,10 @@ begin and end of continuous ranges of seq_num in table numbers.
 |   18    |
 
 #### Example output:  
-| begin_seq | end_seq |
+| begin_num | end_num |
 | --------- | ------- |
-| 1         | 10      |
+| 1         |  3      |
+| 8         | 10      |
 | 14        | 16      |
 | 18        | 18      |
 #### Actual table output
