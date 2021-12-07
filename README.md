@@ -12,7 +12,7 @@ The image is for practice of some advanced query with mysql.
 git clone https://github.com/Zhima-Mochi/Mysql-Playground-Image.git
 cd Mysql-Playground-Image
 docker-compose up -d # You can create your volume by editing docker-compose.yml
-docker exec -it mysql-8-playground 
+docker exec -it mysql-8-playground mysql playground
 ```
 ## Update database
 When this repo has something new, you can use following command to update your database (the tables might be truncated): 
